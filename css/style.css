@@ -699,10 +699,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
 .skill-mf span {
   color: #4e4e4e;
 }
@@ -748,6 +744,13 @@ a:hover {
 }
 
 .service-box .s-title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.4rem 0 0 0;
+}
+
+.service-box .m-title {
   font-size: 1.4rem;
   text-transform: uppercase;
   text-align: center;
