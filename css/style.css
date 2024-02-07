@@ -87,6 +87,8 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: left center;
+  max-width:100%;
+  max-height:100%;
 }
 
 .overlay-mf {
@@ -216,7 +218,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #48abec;
+  box-shadow: 0 0 0 3px #809BCE;
   transition: all 500ms ease;
 }
 
@@ -246,7 +248,10 @@ a:hover {
 }
 
 .list-ico span {
-  color: #48abec;
+  background: -webkit-linear-gradient(45deg, #809BCE, #B8E0D2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-right: 10px;
 }
 
@@ -260,7 +265,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #48abec;
+  box-shadow: 0 0 0 10px #809BCE;
   display: block;
 }
       
@@ -839,7 +844,10 @@ a:hover {
 ======================================*/
 
 .testimonials .owl-carousel .owl-item img {
-  width: auto;
+  width: 300px;
+  height: auto;
+  max-width:100%;
+  max-height:100%;
 }
 
 .testimonial-box {
