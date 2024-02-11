@@ -91,6 +91,12 @@ a:hover {
   max-height:100%;
 }
 
+.bg-white {
+  background-color: #c2c2c2;
+  max-width:100%;
+  max-height:100%;
+}
+
 .overlay-mf {
   background: linear-gradient(45deg, #809BCE, #B8E0D2);
 }
@@ -236,14 +242,17 @@ a:hover {
 }
 
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  font-size: 1.7rem;
+  height: 44px;
+  width: 44px;
+  font-size: 1.5rem;
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #809BCE;
   transition: all 500ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socials .ico-circle:hover {
@@ -764,7 +773,10 @@ a:hover {
 
 .service-box .ico-circle {
   transition: all 500ms ease;
-  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .service-box .service-content {
