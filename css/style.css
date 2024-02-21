@@ -755,7 +755,7 @@ a:hover {
 
 .service-box {
   background-color: #fff;
-  padding: 2.5rem 1.3rem;
+  padding: 3.8rem 1.3rem 2rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
 }
@@ -803,7 +803,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .service-box .s-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     text-align: center;
   }
@@ -832,7 +832,7 @@ a:hover {
   left: 50%;
   margin-left: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline:before {
     margin-left: -64px;
   }
@@ -842,7 +842,7 @@ a:hover {
     margin-left: -64px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline .timeline-heading {
     margin-bottom: 30px;
   }
@@ -860,7 +860,7 @@ a:hover {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline .timeline-heading > div h3 {
     float: left;
     margin-bottom: 0;
@@ -870,7 +870,7 @@ a:hover {
   margin-bottom: 20px;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li {
     margin-bottom: 4em;
   }
@@ -892,15 +892,8 @@ a:hover {
   -ms-border-radius: 4px;
   border-radius: 4px;
 }
-@media screen and (max-width: 768px) {
-  .timeline > li > .timeline-panel {
-    width: 85% !important;
-  }
-}
+
 @media screen and (max-width: 480px) {
-  .timeline > li > .timeline-panel {
-    width: 85% !important;
-  }
   .timeline > li > .timeline-panel:before {
     top: 30px;
   }
@@ -927,7 +920,7 @@ a:hover {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li > .timeline-badge {
     margin-left: 1px !important;
   }
@@ -940,7 +933,7 @@ a:hover {
 .timeline > li.timeline-unverted {
   text-align: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li.timeline-unverted {
     text-align: left;
   }
@@ -988,9 +981,7 @@ a:hover {
   }
 
   ul.timeline > li > .timeline-panel {
-    width: calc(100% - 200px);
-    width: -moz-calc(100% - 200px);
-    width: -webkit-calc(100% - 200px);
+    width: 85% !important;
   }
 
   ul.timeline > li > .timeline-badge {
